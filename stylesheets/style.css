@@ -1,0 +1,97 @@
+.revera {
+  margin-left: 20%;
+  padding-left: 5%;
+}
+
+.nav-link {
+  color: black;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.active {
+  color: red;
+}
+
+.BackgroundImage {
+padding: 0px;
+}
+
+.btn-link {
+  color: white;
+}
+
+.bg_icons {
+  align-content: center;
+  text-align: center;
+  background-color: #ED564B;
+  color: white;
+  margin: 1px;
+}
+
+.middletext {
+  margin: 1px;
+}
+
+.Padded {
+  padding: 50px;
+}
+
+.IconSpace {
+  margin: 20px;
+}
+
+.txt2nd {
+  color: grey;
+}
+
+.bg_dark {
+  color: grey;
+  background-color: black;
+}
+
+.sub-title {
+  color: white;
+}
+
+
+
+.carousel-item img {
+  filter: grayscale(20) brightness(50%);
+}
+
+.carousel-caption h3 {
+  text-transform: uppercase;
+}
+
+.carousel-caption {
+  bottom: 50%;
+  transform: translateY(50%);
+}
+
+.carousel-control-prev, .carousel-control-next {
+  background-color: red;
+  top: 40%;
+  bottom: 40%;
+  width: 5%;
+}
+
+@@media (max-width: 800px) {
+  .carousel-control-prev, .carousel-control-next {
+    background-color: black;
+    width: 100px;
+}}
+
+
+.carousel-caption h3{
+  text-transform: capitalize;
+
+
+@media (min-width: 1000px)
+ {
+   .carousel-control-prev
+   .carousel-control-next
+{background-color: lime;
+}}
